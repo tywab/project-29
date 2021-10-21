@@ -12,8 +12,7 @@ class Bridge {
     });
 
 
-    Matter.Composite.add(bridge.body, jp);
-    jointLink = new Link(bridge,jp);
+    
 
     this.pointA = pointA;
     this.body = Composites.chain(rects, 0.1, 0, -0.6, 0, {
